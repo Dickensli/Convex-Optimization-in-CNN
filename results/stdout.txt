@@ -1,0 +1,67 @@
+03:39:50:  read from mnist_basic
+03:39:51:  ===== CCNN layer 1 =====
+03:39:51:  Raw size = (60000, 1, 784)
+03:39:51:  Construct patches...
+03:40:09:  Patch size = (60000, 576, 1, 25)
+03:40:09:  local contrast normalization and ZCA whitening...
+03:40:22:  Create features...
+03:40:22:    sample id 0-2500
+03:40:48:    sample id 2500-5000
+03:41:13:    sample id 5000-7500
+03:41:36:    sample id 7500-10000
+03:42:01:    sample id 10000-12500
+03:42:23:    sample id 12500-15000
+03:42:48:    sample id 15000-17500
+03:43:11:    sample id 17500-20000
+03:43:36:    sample id 20000-22500
+03:44:00:    sample id 22500-25000
+03:44:25:    sample id 25000-27500
+03:44:50:    sample id 27500-30000
+03:45:14:    sample id 30000-32500
+03:45:39:    sample id 32500-35000
+03:46:04:    sample id 35000-37500
+03:46:28:    sample id 37500-40000
+03:46:53:    sample id 40000-42500
+03:47:18:    sample id 42500-45000
+03:47:42:    sample id 45000-47500
+03:48:08:    sample id 47500-50000
+03:48:32:    sample id 50000-52500
+03:48:57:    sample id 52500-55000
+03:49:22:    sample id 55000-57500
+03:49:40:    sample id 57500-60000
+03:54:14:  Training...
+03:59:04:  iter 250: loss=0.07423232529754277, train=0.0128, test=0.03238, dim=0.3956448
+04:01:38:  iter 500: loss=0.0274452508593161, train=0.0025, test=0.02638, dim=0.3688986
+04:04:04:  iter 750: loss=0.016851996190489365, train=0.001, test=0.02504, dim=0.35637426
+04:06:23:  iter 1000: loss=0.012050545571579658, train=0.0005, test=0.02412, dim=0.3491692
+04:06:24:  Apply filters...
+04:08:12:  feature dimension = 3600
+04:08:15:  ===== CCNN layer 2 =====
+04:08:15:  Raw size = (60000, 25, 144)
+04:08:15:  Construct patches...
+04:08:47:  Patch size = (60000, 64, 16, 25)
+04:08:47:  local contrast normalization and ZCA whitening...
+04:09:51:  Create features...
+04:09:51:    sample id 0-5000
+04:10:01:    sample id 5000-10000
+04:10:11:    sample id 10000-15000
+04:10:21:    sample id 15000-20000
+04:10:35:    sample id 20000-25000
+04:10:48:    sample id 25000-30000
+04:11:00:    sample id 30000-35000
+04:11:13:    sample id 35000-40000
+04:11:26:    sample id 40000-45000
+04:11:38:    sample id 45000-50000
+04:11:50:    sample id 50000-55000
+04:12:03:    sample id 55000-60000
+04:12:24:  Training...
+04:12:42:  iter 250: loss=0.06146122679895576, train=0.01, test=0.0217, dim=0.3948523
+04:12:59:  iter 500: loss=0.024049346919032252, train=0.003, test=0.01688, dim=0.381986
+04:13:19:  iter 750: loss=0.015132221524254873, train=0.0009, test=0.01586, dim=0.37466785
+04:13:37:  iter 1000: loss=0.010964481570315026, train=0.0005, test=0.0154, dim=0.37035033
+04:13:56:  iter 1250: loss=0.008580849119341288, train=0.0004, test=0.01504, dim=0.36701173
+04:14:14:  iter 1500: loss=0.007047234527701701, train=0.0002, test=0.015, dim=0.36465076
+04:14:33:  iter 1750: loss=0.0059835669371111205, train=0.0, test=0.01486, dim=0.36277404
+04:14:51:  iter 2000: loss=0.00518734215502333, train=0.0, test=0.01456, dim=0.3612591
+04:14:51:  Apply filters...
+04:14:52:  feature dimension = 400

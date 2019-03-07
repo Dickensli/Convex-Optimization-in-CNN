@@ -1,0 +1,10 @@
+layer1_computat_time	447.38070154190063
+layer1_loss	0.012050545571579658
+layer1_error_train	0.0005
+layer1_error_test	0.02412
+layer1_dim	0.34916919469833374
+layer2_computat_time	139.420104265213
+layer2_loss	0.00518734215502333
+layer2_error_train	0.0
+layer2_error_test	0.01456
+layer2_dim	0.3612591028213501

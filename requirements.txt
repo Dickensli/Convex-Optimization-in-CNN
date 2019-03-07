@@ -1,0 +1,5 @@
+numexpr
+numpy
+sklearn
+ipython
+pylint
